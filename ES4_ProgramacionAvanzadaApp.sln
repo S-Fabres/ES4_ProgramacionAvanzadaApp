@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES4_ProgramacionAvanzadaWEB", "ES4_ProgramacionAvanzadaWEB\ES4_ProgramacionAvanzadaWEB.csproj", "{20FB799F-BF3A-47C1-8EAD-0657C1DD966B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedidoresModel", "MedidoresModel\MedidoresModel.csproj", "{B34ED88B-F241-4076-A446-3EAC4F5764E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20FB799F-BF3A-47C1-8EAD-0657C1DD966B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20FB799F-BF3A-47C1-8EAD-0657C1DD966B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20FB799F-BF3A-47C1-8EAD-0657C1DD966B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20FB799F-BF3A-47C1-8EAD-0657C1DD966B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B34ED88B-F241-4076-A446-3EAC4F5764E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B34ED88B-F241-4076-A446-3EAC4F5764E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B34ED88B-F241-4076-A446-3EAC4F5764E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B34ED88B-F241-4076-A446-3EAC4F5764E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9510537C-00BB-4ABF-849C-ED831BAD2AED}
+	EndGlobalSection
+EndGlobal
