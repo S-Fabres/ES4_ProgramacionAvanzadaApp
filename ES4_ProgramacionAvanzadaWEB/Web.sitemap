@@ -9,6 +9,6 @@
     <siteMapNode url="ModificarLectura.aspx" title="Modificar Lectura"  description="" />
     <siteMapNode url="AgregarUsuario.aspx" title="Agregar Usuario"  description="" />
     <siteMapNode url="ListarUsuarios.aspx" title="Listar Usuarios"  description="" />
-    <siteMapNode url="ModificarUsuarios.aspx" title="Modificar Usuario"  description="" />
+    <siteMapNode url="ModificarUsuario.aspx" title="Modificar Usuario"  description="" />
   </siteMapNode>
 </siteMap>
