@@ -59,6 +59,11 @@ namespace ES4_ProgramacionAvanzadaWEB
                 this.medidoresDAL.EliminarMedidor(id);
                 this.cargarGrilla();
             }
+            if (e.CommandName == "modificar")
+            {
+                Session["Parametro"] = Convert.ToInt32(e.CommandArgument);
+                Response.Redirect("ModificarMedidor.aspx");
+            }
         }
     }
 }

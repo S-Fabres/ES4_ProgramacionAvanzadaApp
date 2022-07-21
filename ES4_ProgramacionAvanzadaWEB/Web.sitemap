@@ -3,9 +3,12 @@
   <siteMapNode url="Default.aspx" title="Inicio"  description="">
     <siteMapNode url="AgregarMedidor.aspx" title="Agregar Medidor"  description="" />
     <siteMapNode url="VerMedidores.aspx" title="Ver Medidores"  description="" />
+    <siteMapNode url="ModificarMedidor.aspx" title="Modificar Medidor"  description="" />
     <siteMapNode url="IngresarLectura.aspx" title="Ingresar Lectura"  description="" />
     <siteMapNode url="MostrarLecturas.aspx" title="Mostrar Lecturas"  description="" />
+    <siteMapNode url="ModificarLectura.aspx" title="Modificar Lectura"  description="" />
     <siteMapNode url="AgregarUsuario.aspx" title="Agregar Usuario"  description="" />
     <siteMapNode url="ListarUsuarios.aspx" title="Listar Usuarios"  description="" />
+    <siteMapNode url="ModificarUsuarios.aspx" title="Modificar Usuario"  description="" />
   </siteMapNode>
 </siteMap>

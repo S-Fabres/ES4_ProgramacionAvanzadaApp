@@ -79,6 +79,9 @@
     <Content Include="Default.aspx" />
     <Content Include="IngresarLectura.aspx" />
     <Content Include="ListarUsuarios.aspx" />
+    <Content Include="ModificarLectura.aspx" />
+    <Content Include="ModificarMedidor.aspx" />
+    <Content Include="ModificarUsuario.aspx" />
     <Content Include="MostrarLecturas.aspx" />
     <Content Include="VerMedidores.aspx" />
     <Content Include="Web.config" />
@@ -118,6 +121,27 @@
     </Compile>
     <Compile Include="ListarUsuarios.aspx.designer.cs">
       <DependentUpon>ListarUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarLectura.aspx.cs">
+      <DependentUpon>ModificarLectura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarLectura.aspx.designer.cs">
+      <DependentUpon>ModificarLectura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarMedidor.aspx.cs">
+      <DependentUpon>ModificarMedidor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarMedidor.aspx.designer.cs">
+      <DependentUpon>ModificarMedidor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ModificarUsuario.aspx.cs">
+      <DependentUpon>ModificarUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ModificarUsuario.aspx.designer.cs">
+      <DependentUpon>ModificarUsuario.aspx</DependentUpon>
     </Compile>
     <Compile Include="MostrarLecturas.aspx.cs">
       <DependentUpon>MostrarLecturas.aspx</DependentUpon>

@@ -35,6 +35,12 @@ namespace ES4_ProgramacionAvanzadaWEB
                 this.usuariosDAL.EliminarUsuario(id);
                 this.cargarGrilla();
             }
+            if (e.CommandName == "modificar")
+            {
+                int id = Convert.ToInt32(e.CommandArgument);
+                Session["Parametro"] = id;
+                Response.Redirect("ModificarUsuario.aspx");
+            }
         }
     }
 }

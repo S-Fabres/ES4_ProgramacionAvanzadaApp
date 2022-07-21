@@ -35,6 +35,12 @@ namespace ES4_ProgramacionAvanzadaWEB
                 this.lecturasDAL.EliminarLectura(codigo);
                 this.cargarGrilla();
             }
+            if (e.CommandName == "modificar")
+            {
+                int codigo = Convert.ToInt32(e.CommandArgument);
+                Session["Parametro"] = codigo;
+                Response.Redirect("ModificarLectura.aspx");
+            }
         }
     }
 }
